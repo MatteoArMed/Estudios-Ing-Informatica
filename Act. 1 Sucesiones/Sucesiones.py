@@ -50,3 +50,25 @@ for i in range(6): #Se agrega un termino mas para que nos tome hasta el anterior
     n=i+10 #Se le suma +10 ya que es el termino donde vamos a comenzar
     b.append(5*0.92**n) #Se agrega la secuencia en la lista para poder guardarla e iterarla.
     print(f'b({n})={b[i]}')
+
+# Considere la sucesion (3n²+7).
+#     a)Los primeros 5 terminos
+#     b)Los 5 terminos que vienen inmediatamente despues del decimoquinto termino.
+
+s=[]
+for i in range(5):
+    n=i+1
+    s.append(3*n**2+7)
+    print(f'b({n})={b[i]}')
+
+s1=[]
+for i in range(5):
+    n=i+15
+    s1.append(3*n**2+7)
+    print(f'b({n})={b[i]}')
+
+# Considere la sucesion (Gₙ) cuyo termino general es 5n³
+#     a)Los primeros 4 terminos
+#     b)los 4 terminos que vienen inmediatamente despues del octavo termino
+#     c)¿el termino 40.000 pertenece a la sucesion?, Verificarlo usando una ecuacion en Python y usando bucles
+#         ¿Cual es mas rapido?
